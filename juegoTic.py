@@ -2,7 +2,7 @@ def muestra_tablero(tablero):
     tableroNuevo="""
     | 7 | 8 | 9 |
     | 4 | 5 | 6 |
-    | 3 | 2 | 1 |
+    | 1 | 2 | 3 |
     """
     for i in range(1,10):
         if (tablero[i] == 'O' or tablero[i] == 'X'):
