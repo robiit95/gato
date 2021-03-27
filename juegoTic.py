@@ -69,7 +69,7 @@ def opcion_jugador(tablero):
 
 def reiniciar():
     jugar = input("¿Quieres jugar de nuevo (s/n)? ")
-    if jugar.lower() == 'y':
+    if jugar.lower() == 's':
         return True
     if jugar.lower() == 'n':
         return False
